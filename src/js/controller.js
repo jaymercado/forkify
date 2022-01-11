@@ -2,14 +2,14 @@ import * as model from './model.js';
 import {MODAL_CLOSE_SEC} from './config.js'
 import RecipeView from './views/RecipeView.js';
 import SearchView from './views/SearchView.js';
-import ResultsView from './views/resultsView.js';
-import BookmarksView from './views/bookmarksView.js';
-import PaginationView from './views/paginationView.js';
-import AddRecipeView from './views/addRecipeView.js';
+import ResultsView from './views/ResultsView.js';
+import BookmarksView from './views/BookmarksView.js';
+import PaginationView from './views/PaginationView.js';
+import AddRecipeView from './views/AddRecipeView.js';
 
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
-import addRecipeView from './views/addRecipeView.js';
+import addRecipeView from './views/AddRecipeView.js';
 
 // if(module.hot) {
 //   module.hot.accept();
