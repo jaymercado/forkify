@@ -1,5 +1,5 @@
 import View from './View';
-import PreviewView from './PreviewView';
+import previewView from './previewView';
 import icons from 'url:../../img/icons.svg';
 
 class ResultsView extends View {
@@ -7,7 +7,7 @@ class ResultsView extends View {
   _errorMessage = 'No recipes found for your query.';
   _message = '';
   _generateMarkup() {
-    return this._data.map(bookmark => PreviewView.render(bookmark, false)).join('');
+    return this._data.map(bookmark => previewView.render(bookmark, false)).join('');
   }
 }
 
